@@ -20,7 +20,7 @@ cities = ['Mumbai', 'Chennai', 'Bangalore', 'Kolkata', 'Delhi', 'Hyderabad', 'Ah
 col1, col2 = st.columns(2)
 
 with col1:
-    batting_team = st.selectbox('Select Chasing Team (Batting First)', sorted(teams))
+    batting_team = st.selectbox('Select Chasing Team (Batting Second)', sorted(teams))
 with col2:
     # Ensure bowling team isn't the same as the batting team
     bowling_team = st.selectbox('Select Bowling Team', sorted([t for t in teams if t != batting_team]))
