@@ -1,0 +1,1 @@
+This project predicts the probability of the chasing team winning an IPL match based on the current match situation using a Machine Learning model. The model is deployed as a Streamlit web application.
